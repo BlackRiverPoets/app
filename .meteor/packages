@@ -8,3 +8,5 @@ meteor-platform
 coffeescript
 mquandalle:stylus
 mquandalle:jade
+sanjo:jasmine
+velocity:html-reporter
