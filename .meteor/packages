@@ -10,3 +10,5 @@ mquandalle:stylus
 mquandalle:jade
 sanjo:jasmine
 velocity:html-reporter
+accounts-facebook
+xolvio:cucumber
