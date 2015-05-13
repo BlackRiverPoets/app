@@ -13,3 +13,4 @@ velocity:html-reporter
 accounts-facebook
 xolvio:cucumber
 xolvio:webdriver
+tap:i18n
