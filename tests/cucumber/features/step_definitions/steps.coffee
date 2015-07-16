@@ -8,3 +8,6 @@ do ->
 
     @When /^I click "([^"]*)"$/, (link, callback) ->
       @browser.click(link).call callback
+
+    @Then /^I should be logged in$/, (callback) ->
+      callback.pending()
