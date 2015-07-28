@@ -3,4 +3,4 @@
 export JASMINE_BROWSER=PhantomJS
 #export JASMINE_DEBUG=0
 #export VELOCITY_DEBUG=0
-meteor --test --release velocity:METEOR@1.1.0.2_3
+meteor --test
