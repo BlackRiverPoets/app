@@ -1,6 +1,0 @@
-#!/bin/bash
-
-export JASMINE_BROWSER=PhantomJS
-#export JASMINE_DEBUG=0
-#export VELOCITY_DEBUG=0
-meteor --test
