@@ -11,3 +11,5 @@ accounts-facebook
 tap:i18n
 react
 anti:gagarin@=0.4.11
+iron:router
+pcel:loading
