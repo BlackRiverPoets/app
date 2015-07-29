@@ -12,11 +12,10 @@ let spinner = '<div class="sk-spinner sk-spinner-cube-grid">'
             + '</div>';
 
 Template.loading.rendered = () => {
-  alert(1)
   if (!Session.get('loadingSplash')) {
     this.loading = window.pleaseWait({
       backgroundColor: '#262b2b',
-      loadingHtml: message + spinner
+      loadingHtml: spinner
     });
     Session.set('loadingSplash', true);
   }

@@ -4,8 +4,6 @@ Router.configure({
   notFoundTemplate: 'notFound'
 });
 
-Router.plugin('loading', {loadingTemplate: 'loading'});
-
 Router.route('/', {
   name: 'homeIndex'
 });
