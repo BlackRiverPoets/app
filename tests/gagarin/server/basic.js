@@ -6,7 +6,7 @@ describe('Basic Test - Server', function () {
     server.execute(function () {
       return new Basic(name);
     }).then(function (basic) {
-      return basic.name === name;
+      expect(basic.name).to.equal(name);
     });
   })
 
