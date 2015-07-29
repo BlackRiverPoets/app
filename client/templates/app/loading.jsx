@@ -15,7 +15,7 @@ Template.loading.rendered = () => {
   if (!Session.get('loadingSplash')) {
     this.loading = window.pleaseWait({
       backgroundColor: '#262b2b',
-      loadingHtml: spinner
+      loadingHtml: message + spinner
     });
     Session.set('loadingSplash', true);
   }
