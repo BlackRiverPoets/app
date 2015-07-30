@@ -1,3 +1,8 @@
 template(name="header")
-  header
-    h1 {{_ "title"}}
+  nav.navbar.navbar-default
+    .navbar-header
+      a.navbar-brand(href="/", title="Home")
+        {{_ "title"}}
+    .navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        +loginButtons

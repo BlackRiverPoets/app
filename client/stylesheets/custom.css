@@ -1,0 +1,7 @@
+.login-button:hover, .login-button:focus{
+  color: #fff !important;
+}
+
+#title{
+  padding: 0;
+}
