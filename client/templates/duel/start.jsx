@@ -1,0 +1,3 @@
+Template.duelStart.viewModel({
+  title: ''
+});
