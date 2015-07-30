@@ -8,9 +8,9 @@ meteor-platform
 mquandalle:jade
 accounts-facebook
 tap:i18n
-react
 anti:gagarin@=0.4.11
 iron:router
 pcel:loading
 ian:accounts-ui-bootstrap-3
 accounts-twitter
+grigio:babel
